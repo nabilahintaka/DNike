@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="buy.css">
+    <title>Buy DNike</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="buy.html">Buy</a>
+        <a href="testimonial.html">Testimonial</a>
+        <a href="Aboutus.html">About Us</a>
+    </nav>
+
+    <br>
+    <h2> Buy Basketball Shoes Now </h2>
+
+    <br>
+    
+    <div id="form-div">
+    <form action="sucess.html" onsubmit="return validate()"> 
+        <label for="username">Name:</label><br>
+        <input type="text" id="username" autocomplete="off"><br><br> <br>
+
+        <label for="email">Email:</label> <br>
+        <input type="text" id="email" autocomplete="off"> <br><br> <br>
+
+        Gender:
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label> <br><br> <br>
+
+        <label for="code">Postal Code:</label><br>
+        <input type="text" id="code" name="code"><br><br> <br>
+
+        <label for="address">Address:</label> <br>
+        <textarea id="address" cols="30" rows="10"></textarea> <br><br><br>
+
+        <label for="product">Product:</label>
+        <select id="product">
+            <option value="" selected hidden>Select a Product</option>
+            <option value="airmoreuptempo">Air More Uptempo</option>
+            <option value="dunkhigh">Dunk High</option>
+            <option value="airjordanhigh">Air Jordan 1 High</option>
+            <option value="jordanonetake">Jordan One Take II PF</option>
+            <option value="lebron18">LeBron 18</option>
+            <option value="jordanwestbrookone">Jordan Westbrook One Take PF</option>
+            <option value="firered">LeBron 17 'Fire Red'</option>
+            <option value="lebron18low">LeBron 18 Low x Atmos</option>
+            <option value="airjordanPF">Air Jordan XXV PF</option>
+        </select> <br><br> <br>
+
+        <label for="card">Credit Card Number:</label><br>
+        <input type="text" id="card" name="card"><br><br><br>
+
+        <input type="checkbox" id="agreement"><br>
+        <label for="agreement">I agree to make a purchase</label> <br><br><br>
+
+        <input type="submit" value="Submit"> <br><br>
+
+    </div>
+        <script src="buy.js"></script>
+
+        <footer>
+            Copyright by Nabilah Putri Intaka
+        </footer>
+</body>
+</html>
